@@ -39,11 +39,11 @@
 
         default_layer {
             bindings = <
-       &kp APOSTROPHE   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                   &kp K_MUTE                                                                                                &mo 4  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0     &kp SEMICOLON
-              &kp TAB  &kp BACKSLASH     &kp COMMA    &kp PERIOD         &kp P         &kp Y              &kp K_VOLUME_UP                                                                                      &kp PRINTSCREEN         &kp F         &kp G         &kp C         &kp R         &kp L  &kp LEFT_BRACKET
- &mt LEFT_CONTROL ESC          &kp A         &kp O         &kp E         &kp U         &kp I            &kp K_VOLUME_DOWN  &kp BACKSPACE    &kp DELETE  &trans  &trans  &kp RIGHT_CONTROL      &kp ENTER            &kp INSERT         &kp D         &kp H         &kp T         &kp N         &kp S         &kp SLASH
-       &kp LEFT_SHIFT      &kp GRAVE         &kp Q         &kp J         &kp K         &kp X                       &trans         &trans  &kp LEFT_ALT  &trans  &trans      &kp RIGHT_WIN         &trans                &trans         &kp B         &kp M         &kp W         &kp V         &kp Z   &kp RIGHT_SHIFT
-               &tog 2  &kp PAGE_DOWN   &kp PAGE_UP      &kp DOWN        &kp UP                                  &kp SPACE   &kp LEFT_WIN         &mo 3                              &mo 3  &kp RIGHT_ALT  &mt LEFT_SHIFT SPACE                    &kp LEFT     &kp RIGHT      &kp HOME       &kp END            &tog 1
+       &kp APOSTROPHE         &kp N1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                 &kp C_MUTE                                                                                                &mo 4  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0     &kp SEMICOLON
+              &kp TAB  &kp BACKSLASH     &kp COMMA    &kp PERIOD         &kp P         &kp Y            &kp C_VOLUME_UP                                                                                      &kp PRINTSCREEN         &kp F         &kp G         &kp C         &kp R         &kp L  &kp LEFT_BRACKET
+ &mt LEFT_CONTROL ESC          &kp A         &kp O         &kp E         &kp U         &kp I               &kp C_VOL_DN  &kp BACKSPACE    &kp DELETE  &trans  &trans  &kp RIGHT_CONTROL      &kp ENTER            &kp INSERT         &kp D         &kp H         &kp T         &kp N         &kp S         &kp SLASH
+       &kp LEFT_SHIFT      &kp GRAVE         &kp Q         &kp J         &kp K         &kp X                     &trans         &trans  &kp LEFT_ALT  &trans  &trans      &kp RIGHT_WIN         &trans                &trans         &kp B         &kp M         &kp W         &kp V         &kp Z   &kp RIGHT_SHIFT
+               &tog 2  &kp PAGE_DOWN   &kp PAGE_UP      &kp DOWN        &kp UP                                &kp SPACE   &kp LEFT_WIN         &mo 3                              &mo 3  &kp RIGHT_ALT  &mt LEFT_SHIFT SPACE                    &kp LEFT     &kp RIGHT      &kp HOME       &kp END            &tog 1
             >;
         };
 
@@ -59,17 +59,17 @@
 
         layer_keypad {
             bindings = <
- &kp EQUAL     &kp N1    &kp N2    &kp N3     &kp N4  &kp N5              &trans                                                                 &mo 3  &kp N6  &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp MINUS
+ &kp EQUAL     &kp N1    &kp N2    &kp N3     &kp N4  &kp N5              &trans                                                                 &mo 4  &kp N6  &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp MINUS
    &kp TAB      &kp Q     &kp W     &kp E      &kp R   &kp T               &none                                                                 &none   &kp Y   &kp KP_N7     &kp KP_N8      &kp KP_N9     &kp KP_MINUS   &kp BSLH
    &kp ESC      &kp A     &kp S     &kp D      &kp F   &kp G               &none  &kp LCTRL  &kp LALT   &none   &none   &kp LGUI  &kp RCTRL      &none   &kp H   &kp KP_N4     &kp KP_N5      &kp KP_N6      &kp KP_PLUS    &kp SQT
  &kp LSHFT      &kp Z     &kp X     &kp C      &kp V   &kp B               &none      &none  &kp HOME   &none   &none  &kp PG_UP      &none      &none   &kp N   &kp KP_N1     &kp KP_N2      &kp KP_N3     &kp KP_ENTER  &kp RSHFT
-     &mo 2  &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT                    &kp BSPC    &kp DEL   &kp END                  &kp PG_DN  &kp ENTER  &kp KP_N0              &kp UP      &kp DOWN     &kp KP_DOT         &kp RBKT      &mo 2
+     &mo 3  &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT                    &kp BSPC    &kp DEL   &kp END                  &kp PG_DN  &kp ENTER  &kp KP_N0              &kp UP      &kp DOWN     &kp KP_DOT         &kp RBKT      &mo 3
             >;
         };
 
         layer_fn {
             bindings = <
- &trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5            &tog 1                                                   &mo 3  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11
+ &trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5            &tog 2                                                   &mo 4  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11
  &trans  &trans  &trans  &trans  &trans  &trans             &none                                                   &none  &trans  &trans  &trans  &trans   &trans  &kp F12
  &trans  &trans  &trans  &trans  &trans  &trans             &none  &trans  &trans   &none   &none  &trans  &trans   &none  &trans  &trans  &trans  &trans   &trans   &trans
  &trans  &trans  &trans  &trans  &trans  &trans             &none   &none  &trans   &none   &none  &trans   &none   &none  &trans  &trans  &trans  &trans   &trans   &trans
