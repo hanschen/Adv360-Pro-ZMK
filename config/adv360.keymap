@@ -73,7 +73,7 @@
  &trans        &trans     &trans      &trans       &trans      &trans              &kp HOME                                                        &kp C_PREV  &trans  &trans  &trans  &trans   &trans  &kp F12
  &trans  &kp K_SELECT     &trans      &trans       &trans      &trans               &kp END  &trans  &trans   &none   &none  &trans  &trans        &kp C_NEXT  &trans  &trans  &trans  &trans   &trans   &trans
  &trans    &kp K_UNDO  &kp K_CUT  &kp K_COPY  &kp K_PASTE  &kp K_REDO                 &none   &none  &trans   &none   &none  &trans   &none             &none  &trans  &trans  &trans  &trans   &trans   &trans
- &trans        &trans     &trans      &trans   &kp K_MENU                            &trans  &trans  &trans                  &trans  &trans            &trans          &trans  &trans  &trans   &trans    &mo 4
+ &trans        &trans     &trans      &trans   &kp K_MENU                            &trans  &trans  &trans                  &trans  &trans            &trans          &trans  &trans  &trans   &trans   &trans
             >;
         };
 
