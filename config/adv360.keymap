@@ -39,11 +39,11 @@
 
         default_layer {
             bindings = <
-            &kp RA(A)          &kp N1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5               &kp DELETE                                                                                                    &kp DELETE  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0        &kp RA(O)
-              &kp TAB  &kp APOSTROPHE     &kp COMMA    &kp PERIOD         &kp P         &kp Y            &kp BACKSPACE                                                                                                 &kp BACKSPACE         &kp F         &kp G         &kp C         &kp R         &kp L        &kp RA(Q)
- &mt LEFT_CONTROL ESC           &kp A         &kp O         &kp E         &kp U         &kp I                &kp ENTER        &kp LEFT_CONTROL  &kp LEFT_ALT  &trans  &trans   &kp LEFT_ALT  &kp RIGHT_CONTROL             &kp ENTER         &kp D         &kp H         &kp T         &kp N         &kp S        &kp MINUS
-           &kp LSHIFT       &kp COLON         &kp Q         &kp J         &kp K         &kp X                   &trans                  &trans  &kp LEFT_WIN  &trans  &trans  &kp RIGHT_WIN             &trans                &trans         &kp B         &kp M         &kp W         &kp V         &kp Z  &kp RIGHT_SHIFT
-                &mo 2   &kp PAGE_DOWN   &kp PAGE_UP      &kp DOWN        &kp UP                              &kp SPACE  &mt LEFT_WIN LC(LA(B))         &sl 3                          &sl 3              &sl 5  &mt LEFT_SHIFT SPACE                    &kp LEFT     &kp RIGHT      &kp HOME       &kp END            &mo 4
+            &kp RA(A)          &kp N1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5               &kp INSERT                                                                                                &kp C_MUTE  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9   &kp NUMBER_0        &kp RA(O)
+              &kp TAB  &kp APOSTROPHE     &kp COMMA    &kp PERIOD         &kp P         &kp Y              &kp PAGE_UP                                                                                              &kp C_VOL_UP         &kp F         &kp G         &kp C         &kp R          &kp L        &kp RA(Q)
+ &mt LEFT_CONTROL ESC           &kp A         &kp O         &kp E         &kp U         &kp I            &kp PAGE_DOWN           &kp BACKSPACE    &kp DELETE  &trans  &trans  &kp RIGHT_CONTROL  &kp ENTER          &kp C_VOL_DN         &kp D         &kp H         &kp T         &kp N          &kp S        &kp MINUS
+           &kp LSHIFT       &kp COLON         &kp Q         &kp J         &kp K         &kp X                   &trans                  &trans  &kp LEFT_ALT  &trans  &trans       &kp LEFT_ALT     &trans                &trans         &kp B         &kp M         &kp W         &kp V          &kp Z  &kp RIGHT_SHIFT
+                &mo 2    &kp LEFT_WIN      &kp HOME      &kp DOWN        &kp UP                              &kp SPACE  &mt LEFT_WIN LC(LA(B))         &sl 3                              &sl 3      &sl 5  &mt LEFT_SHIFT SPACE                    &kp LEFT     &kp RIGHT       &kp END  &kp RIGHT_WIN            &mo 4
             >;
         };
 
@@ -89,11 +89,11 @@
 
         layer_Symbol {
             bindings = <
- &trans           &kp F1            &kp F2                &kp F3                 &kp F4      &kp F5                       &trans                                                  &trans              &kp F6         &kp F7         &kp F8             &kp F9        &kp F10            &kp F11
- &trans    &kp LESS_THAN  &kp GREATER_THAN      &kp LEFT_BRACKET      &kp RIGHT_BRACKET  &kp DOLLAR                       &trans                                                  &trans  &kp LA(APOSTROPHE)      &kp CARET  &kp AMPERSAND  &kp DOUBLE_QUOTES  &kp RA(MINUS)  &kp RA(RS(MINUS))
- &trans    &kp SEMICOLON         &kp SLASH  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp PIPE                       &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans           &kp POUND      &kp COLON      &kp EQUAL     &kp UNDERSCORE   &kp ASTERISK          &kp TILDE
- &trans  &kp EXCLAMATION      &kp QUESTION        &kp LEFT_BRACE        &kp RIGHT_BRACE      &kp AT                       &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans         &kp PERCENT  &kp BACKSLASH      &kp GRAVE           &kp PLUS  &kp RA(EQUAL)            &kp F12
- &trans           &trans            &trans                &trans                 &trans                        &kp LC(BACKSPACE)  &trans  &trans                  &trans  &trans  &trans                             &trans         &trans             &trans         &trans             &trans
+     &trans           &kp F1            &kp F2                &kp F3                 &kp F4      &kp F5                       &trans                                                  &trans              &kp F6         &kp F7         &kp F8             &kp F9        &kp F10            &kp F11
+     &trans    &kp LESS_THAN  &kp GREATER_THAN      &kp LEFT_BRACKET      &kp RIGHT_BRACKET  &kp DOLLAR                       &trans                                                  &trans  &kp LA(APOSTROPHE)      &kp CARET  &kp AMPERSAND  &kp DOUBLE_QUOTES  &kp RA(MINUS)  &kp RA(RS(MINUS))
+ &caps_word    &kp SEMICOLON         &kp SLASH  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp PIPE                       &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans           &kp POUND      &kp COLON      &kp EQUAL     &kp UNDERSCORE   &kp ASTERISK          &kp TILDE
+     &trans  &kp EXCLAMATION      &kp QUESTION        &kp LEFT_BRACE        &kp RIGHT_BRACE      &kp AT                       &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans         &kp PERCENT  &kp BACKSLASH      &kp GRAVE           &kp PLUS  &kp RA(EQUAL)            &kp F12
+     &trans           &trans            &trans                &trans                 &trans                        &kp LC(BACKSPACE)  &trans  &trans                  &trans  &trans  &trans                             &trans         &trans             &trans         &trans             &trans
             >;
         };
 
