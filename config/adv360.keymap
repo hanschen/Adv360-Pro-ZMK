@@ -89,11 +89,11 @@
 
         layer_Symbol {
             bindings = <
- &trans           &kp F1            &kp F2                &kp F3                 &kp F4         &kp F5                       &trans                                                  &trans              &kp F6     &kp F7         &kp F8             &kp F9        &kp F10            &kp F11
- &trans    &kp LESS_THAN  &kp GREATER_THAN      &kp LEFT_BRACKET      &kp RIGHT_BRACKET     &kp DOLLAR                       &trans                                                  &trans  &kp RA(APOSTROPHE)     &kp AT  &kp AMPERSAND  &kp DOUBLE_QUOTES  &kp RA(MINUS)  &kp RA(RS(MINUS))
- &trans    &kp SEMICOLON         &kp SLASH  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS       &kp PIPE                       &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans           &kp POUND  &kp COLON      &kp EQUAL     &kp UNDERSCORE   &kp ASTERISK          &kp TILDE
- &trans  &kp EXCLAMATION      &kp QUESTION        &kp LEFT_BRACE        &kp RIGHT_BRACE  &kp BACKSLASH                       &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans         &kp PERCENT  &kp CARET      &kp GRAVE           &kp PLUS  &kp RA(EQUAL)            &kp F12
- &trans           &trans            &trans                &trans                 &trans                           &kp LC(BACKSPACE)  &trans  &trans                  &trans  &trans  &trans                         &trans         &trans             &trans         &trans             &trans
+ &trans           &kp F1           &kp F2                &kp F3                 &kp F4         &kp F5                       &trans                                                  &trans         &kp F6         &kp F7            &kp F8              &kp F9        &kp F10            &kp F11
+ &trans   &kp LEFT_BRACE  &kp RIGHT_BRACE      &kp LEFT_BRACKET      &kp RIGHT_BRACKET     &kp DOLLAR                       &trans                                                  &trans  &kp AMPERSAND  &kp LESS_THAN  &kp GREATER_THAN   &kp DOUBLE_QUOTES  &kp RA(MINUS)  &kp RA(RS(MINUS))
+ &trans    &kp SEMICOLON        &kp SLASH  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS       &kp PIPE                       &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans       &kp PLUS      &kp COLON         &kp EQUAL      &kp UNDERSCORE   &kp ASTERISK          &kp TILDE
+ &trans  &kp EXCLAMATION     &kp QUESTION                &kp AT               &kp HASH  &kp BACKSLASH                       &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &kp PERCENT      &kp CARET         &kp GRAVE  &kp RA(APOSTROPHE)  &kp RA(EQUAL)            &kp F12
+ &trans           &trans           &trans                &trans                 &trans                           &kp LC(BACKSPACE)  &trans  &trans                  &trans  &trans  &trans                        &trans            &trans              &trans         &trans             &trans
             >;
         };
 
