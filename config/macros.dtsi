@@ -1,8 +1,20 @@
-macro_archive_zotero: macro_archive_zotero{
+macro_zotero_get: macro_zotero_get{
 compatible = "zmk,behavior-macro";
-label = "macro_archive_zotero";
+label = "macro_zotero_get";
 #binding-cells = <0>;
-bindings = <&kp DOWN_ARROW>, <&kp RIGHT>, <&kp RIGHT>, <&kp K_APP>, <&kp UP_ARROW>, <&kp RIGHT>, <&kp UP>;
+bindings = <&kp K_APP>, <&kp UP>, <&kp RIGHT>, <&kp DOWN>, <&kp DOWN>, <&kp DOWN>, <&kp ENTER>;
+};
+macro_zotero_send: macro_zotero_send{
+compatible = "zmk,behavior-macro";
+label = "macro_zotero_send";
+#binding-cells = <0>;
+bindings = <&kp K_APPLICATION>, <&kp UP>, <&kp RIGHT>, <&kp UP>;
+};
+macro_zotero_rename: macro_zotero_rename{
+compatible = "zmk,behavior-macro";
+label = "macro_zotero_rename";
+#binding-cells = <0>;
+bindings = <&kp K_APPLICATION>, <&kp UP>, <&kp RIGHT>, <&kp ENTER>;
 };
 macro_lund: macro_lund{
 compatible = "zmk,behavior-macro";
