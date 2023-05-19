@@ -1,3 +1,9 @@
+macro_zotero_view: macro_zotero_view{
+compatible = "zmk,behavior-macro";
+label = "macro_zotero_view";
+#binding-cells = <0>;
+bindings = <&kp LA(V)>, <&kp UP>, <&kp ENTER>;
+};
 macro_zotero_get: macro_zotero_get{
 compatible = "zmk,behavior-macro";
 label = "macro_zotero_get";
