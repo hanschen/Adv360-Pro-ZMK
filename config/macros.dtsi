@@ -8,7 +8,7 @@ macro_zotero_send: macro_zotero_send{
 compatible = "zmk,behavior-macro";
 label = "macro_zotero_send";
 #binding-cells = <0>;
-bindings = <&kp K_APPLICATION>, <&kp UP>, <&kp RIGHT>, <&kp DOWN>, <&kp DOWN>, <&kp DOWN>, <&kp ENTER>;
+bindings = <&kp K_APPLICATION>, <&kp UP>, <&kp RIGHT>, <&kp DOWN>, <&kp DOWN>, <&kp DOWN>, <&kp DOWN>, <&kp ENTER>;
 };
 macro_zotero_rename: macro_zotero_rename{
 compatible = "zmk,behavior-macro";
