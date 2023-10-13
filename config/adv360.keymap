@@ -49,11 +49,11 @@
 
         layer_qwerty {
             bindings = <
- &kp EQUAL     &kp N1    &kp N2    &kp N3     &kp N4  &kp N5              &trans                                                                &tog 2  &kp N6  &kp N7     &kp N8    &kp N9    &kp N0  &kp MINUS
-   &kp TAB      &kp Q     &kp W     &kp E      &kp R   &kp T              &trans                                                                 &none   &kp Y   &kp U      &kp I     &kp O     &kp P   &kp BSLH
-   &kp ESC      &kp A     &kp S     &kp D      &kp F   &kp G              &trans  &kp LCTRL  &kp LALT   &none   &none   &kp LGUI  &kp RCTRL      &none   &kp H   &kp J      &kp K     &kp L  &kp SEMI    &kp SQT
+ &kp EQUAL     &kp N1    &kp N2    &kp N3     &kp N4  &kp N5              &trans                                                                &trans  &kp N6  &kp N7     &kp N8    &kp N9    &kp N0  &kp MINUS
+   &kp TAB      &kp Q     &kp W     &kp E      &kp R   &kp T              &trans                                                                &trans   &kp Y   &kp U      &kp I     &kp O     &kp P   &kp BSLH
+   &kp ESC      &kp A     &kp S     &kp D      &kp F   &kp G              &trans  &kp LCTRL  &kp LALT   &none   &none   &kp LGUI  &kp RCTRL     &trans   &kp H   &kp J      &kp K     &kp L  &kp SEMI    &kp SQT
  &kp LSHFT      &kp Z     &kp X     &kp C      &kp V   &kp B               &none      &none  &kp HOME   &none   &none  &kp PG_UP      &none      &none   &kp N   &kp M  &kp COMMA   &kp DOT  &kp FSLH  &kp RSHFT
-     &mo 3  &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT                    &kp BSPC    &kp DEL   &kp END                  &kp PG_DN  &kp ENTER  &kp SPACE          &kp UP   &kp DOWN  &kp LBKT  &kp RBKT      &mo 4
+     &mo 4  &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT                    &kp BSPC    &kp DEL   &kp END                  &kp PG_DN  &kp ENTER  &kp SPACE          &kp UP   &kp DOWN  &kp LBKT  &kp RBKT      &mo 4
             >;
         };
 
@@ -69,11 +69,11 @@
 
         layer_fn {
             bindings = <
- &kp LS(F12)  &kp LS(F1)  &kp LS(F2)  &kp LS(F3)  &kp LS(F4)  &kp LS(F5)            &kp PRINTSCREEN                                                  &kp SYSREQ  &kp LS(F6)         &kp LS(F7)  &kp LS(F8)            &kp LS(F9)         &kp LS(F10)  &kp LS(F11)
-     &kp ESC     &kp F12      &kp F7      &kp F8      &kp F9       &none                 &kp INSERT                                                       &none       &none  &macro_zotero_get  &macro_cid  &macro_zotero_rename         &macro_lund        &none
-    &kp CAPS     &kp F11      &kp F4      &kp F5      &kp F6       &none                      &none  &trans  &trans   &none   &none  &trans  &trans       &none       &none              &none       &none                 &none  &macro_zotero_send        &none
-      &trans     &kp F10      &kp F1      &kp F2      &kp F3       &none                      &none   &none  &trans   &none   &none  &trans   &none       &none      &trans       &macro_email       &none    &macro_zotero_view               &none       &trans
-      &trans    &kp HOME     &kp END    &kp LEFT   &kp RIGHT                                 &trans  &trans  &trans                  &trans  &trans      &trans                          &none       &none                 &none               &none       &trans
+ &kp LS(F12)  &kp LS(F1)  &kp LS(F2)  &kp LS(F3)  &kp LS(F4)  &kp LS(F5)            &kp PRINTSCREEN                                                  &trans  &kp LS(F6)         &kp LS(F7)  &kp LS(F8)            &kp LS(F9)         &kp LS(F10)  &kp LS(F11)
+     &kp ESC     &kp F12      &kp F7      &kp F8      &kp F9       &none                 &kp SYSREQ                                                  &trans       &none  &macro_zotero_get  &macro_cid  &macro_zotero_rename         &macro_lund        &none
+    &kp CAPS     &kp F11      &kp F4      &kp F5      &kp F6       &none                 &kp INSERT  &trans  &trans   &none   &none  &trans  &trans  &trans       &none              &none       &none                 &none  &macro_zotero_send        &none
+      &trans     &kp F10      &kp F1      &kp F2      &kp F3       &none                      &none   &none  &trans   &none   &none  &trans   &none   &none      &trans       &macro_email       &none    &macro_zotero_view               &none       &trans
+      &trans    &kp HOME     &kp END    &kp LEFT   &kp RIGHT                                 &trans  &trans  &trans                  &trans  &trans  &trans                          &none       &none                 &none               &none       &trans
             >;
         };
 
