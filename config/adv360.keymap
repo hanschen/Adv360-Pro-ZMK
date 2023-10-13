@@ -43,7 +43,7 @@
               &kp TAB  &kp APOSTROPHE      &kp COMMA    &kp PERIOD         &kp P         &kp Y            &kp C_NEXT                                                                                              &kp C_VOL_UP         &kp F         &kp G         &kp C         &kp R         &kp L        &kp RA(O)
  &mt LEFT_CONTROL ESC           &kp A          &kp O         &kp E         &kp U         &kp I              &kp C_PP           &kp BACKSPACE    &kp DELETE  &trans  &trans      &kp RIGHT_GUI  &kp ENTER          &kp C_VOL_DN         &kp D         &kp H         &kp T         &kp N         &kp S        &kp MINUS
            &kp LSHIFT       &kp RA(A)          &kp Q         &kp J         &kp K         &kp X                &trans                  &trans  &kp LEFT_ALT  &trans  &trans  &kp RIGHT_CONTROL     &trans                &trans         &kp B         &kp M         &kp W         &kp V         &kp Z  &kp RIGHT_SHIFT
-                &mo 2     &kp PAGE_UP  &kp PAGE_DOWN      &kp DOWN        &kp UP                           &kp SPACE  &mt LEFT_WIN LC(LA(B))   &lt 3 K_APP                              &sl 3      &sl 5  &mt LEFT_SHIFT SPACE                    &kp LEFT     &kp RIGHT      &kp HOME       &kp END            &mo 4
+                &mo 4     &kp PAGE_UP  &kp PAGE_DOWN      &kp DOWN        &kp UP                           &kp SPACE  &mt LEFT_WIN LC(LA(B))   &lt 2 K_APP                              &sl 3      &sl 5  &mt LEFT_SHIFT SPACE                    &kp LEFT     &kp RIGHT      &kp HOME       &kp END            &mo 4
             >;
         };
 
@@ -59,21 +59,21 @@
 
         layer_keypad {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &kp KP_NUM  &kp KP_SLASH  &kp KP_MULTIPLY  &kp KP_MINUS  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans   &kp KP_N7     &kp KP_N8        &kp KP_N9   &kp KP_PLUS  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans   &none   &none  &trans  &trans  &trans  &trans   &kp KP_N4     &kp KP_N5        &kp KP_N6  &kp KP_EQUAL  &trans
- &trans  &trans  &trans  &trans  &trans  &trans             &none   &none  &trans   &none   &none  &trans   &none   &none  &trans   &kp KP_N1     &kp KP_N2        &kp KP_N3  &kp KP_ENTER  &trans
- &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans           &kp KP_N0     &kp KP_N0       &kp KP_DOT  &kp KP_ENTER  &trans
+ &kp F12     &kp F1     &kp F2     &kp F3     &kp F4     &kp F5            &trans                                                             &trans        &kp F6     &kp F7     &kp F8      &kp F9          &kp F10  &kp F11
+  &trans  &kp LC(Q)  &kp LC(W)  &kp LC(E)  &kp LC(R)  &kp LC(T)            &trans                                                             &trans    &kp KP_NUM  &kp KP_N7  &kp KP_N8   &kp KP_N9     &kp KP_MINUS    &none
+  &trans  &kp LC(A)  &kp LC(S)  &kp LC(D)  &kp LC(F)  &kp LC(G)            &trans  &trans  &trans   &none   &none  &kp ESC   &kp KP_ENTER     &trans  &kp KP_EQUAL  &kp KP_N4  &kp KP_N5   &kp KP_N6      &kp KP_PLUS    &none
+  &trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(B)             &none   &none  &trans   &none   &none   &trans          &none      &none  &kp KP_SLASH  &kp KP_N1  &kp KP_N2   &kp KP_N3  &kp KP_MULTIPLY    &none
+  &trans   &kp HOME    &kp END   &kp LEFT  &kp RIGHT                       &trans  &trans  &trans                   &trans  &kp BACKSPACE  &kp SPACE                &kp KP_N0  &kp COMMA  &kp KP_DOT            &none    &none
             >;
         };
 
         layer_fn {
             bindings = <
-   &kp ESCAPE     &kp F1     &kp F2     &kp F3     &kp F4         &kp F5            &kp PRINTSCREEN                                                  &kp SYSREQ  &kp F6             &kp F7      &kp F8                &kp F9             &kp F10  &kp F11
- &kp CAPSLOCK     &trans     &trans     &trans     &trans         &trans                 &kp INSERT                                                      &trans  &trans  &macro_zotero_get  &macro_cid  &macro_zotero_rename         &macro_lund   &trans
-   &caps_word  &kp LC(A)  &kp LC(S)  &kp LC(D)  &kp LC(F)      &kp LC(G)                  &kp K_APP  &trans  &trans   &none   &none  &trans  &trans      &trans  &trans             &trans      &trans                &trans  &macro_zotero_send   &trans
-       &trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(LS(Z))                      &none   &none  &trans   &none   &none  &trans   &none       &none  &trans       &macro_email      &kp UP    &macro_zotero_view              &trans  &kp F12
-       &trans   &kp HOME    &kp END   &kp LEFT  &kp RIGHT                                    &trans  &trans  &trans                  &trans  &trans      &trans                   &kp LEFT    &kp DOWN             &kp RIGHT              &trans   &trans
+ &kp LS(F12)  &kp LS(F1)  &kp LS(F2)  &kp LS(F3)  &kp LS(F4)  &kp LS(F5)            &kp PRINTSCREEN                                                  &kp SYSREQ  &kp LS(F6)         &kp LS(F7)  &kp LS(F8)            &kp LS(F9)         &kp LS(F10)  &kp LS(F11)
+     &kp ESC     &kp F12      &kp F7      &kp F8      &kp F9       &none                 &kp INSERT                                                       &none       &none  &macro_zotero_get  &macro_cid  &macro_zotero_rename         &macro_lund        &none
+    &kp CAPS     &kp F11      &kp F4      &kp F5      &kp F6       &none                      &none  &trans  &trans   &none   &none  &trans  &trans       &none       &none              &none       &none                 &none  &macro_zotero_send        &none
+      &trans     &kp F10      &kp F1      &kp F2      &kp F3       &none                      &none   &none  &trans   &none   &none  &trans   &none       &none      &trans       &macro_email       &none    &macro_zotero_view               &none       &trans
+      &trans    &kp HOME     &kp END    &kp LEFT   &kp RIGHT                                 &trans  &trans  &trans                  &trans  &trans      &trans                          &none       &none                 &none               &none       &trans
             >;
         };
 
@@ -89,11 +89,11 @@
 
         layer_Symbol {
             bindings = <
- &trans           &kp F1           &kp F2                &kp F3                 &kp F4         &kp F5            &trans                                                             &trans       &kp F6     &kp F7         &kp F8              &kp F9        &kp F10            &kp F11
- &trans   &kp LEFT_BRACE  &kp RIGHT_BRACE      &kp LEFT_BRACKET      &kp RIGHT_BRACKET     &kp DOLLAR            &trans                                                             &trans       &kp LT     &kp GT  &kp AMPERSAND   &kp DOUBLE_QUOTES  &kp RA(MINUS)  &kp RA(RS(MINUS))
- &trans    &kp SEMICOLON        &kp SLASH  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH            &trans  &kp LC(BACKSPACE)  &trans  &trans  &trans  &trans  &trans  &trans     &kp PLUS  &kp COLON      &kp EQUAL      &kp UNDERSCORE   &kp ASTERISK          &kp TILDE
- &trans  &kp EXCLAMATION     &kp QUESTION                &kp AT               &kp HASH       &kp PIPE            &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp PERCENT  &kp CARET      &kp GRAVE  &kp RA(APOSTROPHE)  &kp RA(EQUAL)            &kp F12
- &trans           &trans           &trans                &trans                 &trans                           &trans             &trans  &trans                  &trans  &trans  &trans                  &trans         &trans              &trans         &trans             &trans
+              &kp F12           &kp F1           &kp F2                &kp F3                 &kp F4         &kp F5            &trans                                                  &trans       &kp F6     &kp F7         &kp F8              &kp F9        &kp F10            &kp F11
+ &kp LS(RA(NUMBER_8))   &kp LEFT_BRACE  &kp RIGHT_BRACE      &kp LEFT_BRACKET      &kp RIGHT_BRACKET     &kp DOLLAR            &trans                                                  &trans       &kp LT     &kp GT  &kp AMPERSAND   &kp DOUBLE_QUOTES  &kp RA(MINUS)  &kp RA(RS(MINUS))
+           &caps_word    &kp SEMICOLON        &kp SLASH  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &kp PLUS  &kp COLON      &kp EQUAL      &kp UNDERSCORE   &kp ASTERISK          &kp TILDE
+               &trans  &kp EXCLAMATION     &kp QUESTION                &kp AT               &kp HASH       &kp PIPE            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp PERCENT  &kp CARET      &kp GRAVE  &kp RA(APOSTROPHE)  &kp RA(EQUAL)             &trans
+               &trans           &trans           &trans                &trans                 &trans                           &trans  &trans  &trans                  &trans  &trans  &trans                  &trans         &trans              &trans         &trans             &trans
             >;
         };
 
